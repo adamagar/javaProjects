@@ -25,9 +25,9 @@ public class SortingNumbers {
             }
         } else if ((c > b) && (c > a)) {
             if (b > a) {
-                System.out.println("c>a>b");
-            } else {
                 System.out.println("c>b>a");
+            } else {
+                System.out.println("c>a>b");
             }
         }
     }
