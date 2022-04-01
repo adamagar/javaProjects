@@ -8,28 +8,30 @@ public class GradingCalculator {
         String name = inp.next();
 
         System.out.println("Math Grade : ");
-        mat= inp.nextInt();
+        mat = inp.nextInt();
 
         System.out.println("Physics Grade : ");
-        physics= inp.nextInt();
+        physics = inp.nextInt();
 
         System.out.println("Science Grade : ");
-        science= inp.nextInt();
+        science = inp.nextInt();
 
         System.out.println("History Grade : ");
-        history= inp.nextInt();
+        history = inp.nextInt();
 
         System.out.println("Music Grade : ");
-        music= inp.nextInt();
+        music = inp.nextInt();
 
-        int total = mat+physics+science+history+music;
-        double result = total/5;
-        System.out.println(result);
-        if (result>60){
-            System.out.println(name + " ACongratulations you passed!");
+        int total = mat + physics + science + history + music;
+        double result = total / 5;
 
-        }else
+        if (result > 60) {
+            System.out.println(name + " Congratulations you passed!");
+
+        } else {
             System.out.println(name + "You failed");
-    }
+        }
+        System.out.println(result);
 
+    }
 }
