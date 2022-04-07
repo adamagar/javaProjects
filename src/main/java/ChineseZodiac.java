@@ -8,43 +8,42 @@ public class ChineseZodiac {
         year = scan.nextInt();
         remain = year%12;
         switch (remain){
-            case 1:
+            case 0:
                 System.out.println("Your Chinese Zodiac is: Monkey");
                 break;
-            case 2:
+            case 1:
                 System.out.println("Your Chinese Zodiac is: Chicken");
                 break;
-            case 3:
+            case 2:
                 System.out.println("Your Chinese Zodiac is: Dog");
                 break;
-            case 4:
+            case 3:
                 System.out.println("Your Chinese Zodiac is: Pig");
                 break;
-            case 5:
+            case 4:
                 System.out.println("Your Chinese Zodiac is: Mouse");
                 break;
-            case 6:
+            case 5:
                 System.out.println("Your Chinese Zodiac is: Ox");
                 break;
-            case 7:
+            case 6:
                 System.out.println("Your Chinese Zodiac is: Tiger");
                 break;
-            case 8:
+            case 7:
                 System.out.println("Your Chinese Zodiac is: Rabbit");
                 break;
-            case 9:
+            case 8:
                 System.out.println("Your Chinese Zodiac is: Dragon");
                 break;
-            case 10:
+            case 9:
                 System.out.println("Your Chinese Zodiac is: Snake");
                 break;
-            case 11:
+            case 10:
                 System.out.println("Your Chinese Zodiac is: Horse");
                 break;
-            case 12:
+            case 11:
                 System.out.println("Your Chinese Zodiac is: Sheep");
                 break;
-
         }
     }
 }
