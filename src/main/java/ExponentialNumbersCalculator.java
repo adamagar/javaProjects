@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 public class ExponentialNumbersCalculator {
     public static void main(String[] args) {
-        int num;
+        int bottom, top;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please type a maximum value you want to limit");
-        num = scan.nextInt();
-        for (int i = 1; i<=num; i*=4){
-            System.out.println(i);
+        System.out.println("Please type the bottom number");
+        bottom = scan.nextInt();
+        System.out.println("Please type the top number");
+        top = scan.nextInt();
+        int total = 1;
+        for (int i = 1; i<=top; i++){
+            total *= bottom;
         }
-        for (int j = 1; j<=num; j*=5){
-            System.out.println(j);
-        }
+        System.out.println(total);
     }
 }
